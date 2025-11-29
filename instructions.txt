@@ -28,11 +28,11 @@ create /dist04/tasks ""
 create /dist04/workers ""
 
 5. set ZOOBINDIR
-export ZOOBINDIR=/home/2025/jxiong3/apache-zookeeper-3.8.5-bin/bin
+export ZOOBINDIR=[home_dir]/apache-zookeeper-3.8.5-bin/bin
 
 6. run client
 $ chmod +x runclnt.sh
-jxiong3@teach-node-08:~/DS/A3/zk/zk/clnt$ ./runclnt.sh 500000
+$ ./runclnt.sh 500000
 
 7. list your JAVA processes
 $ ps -u $USER | grep java
